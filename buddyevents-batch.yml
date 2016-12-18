@@ -1,2 +1,17 @@
 spring:
-  profiles: development
+  profiles: dev
+  cloud :
+    stream:
+      kafka: 
+        binder: 
+          brokers : localhost
+          defaultBrokerPort: 9092
+          zkNodes: localhost
+          defaultZkPort: 2181
+          offsetUpdateTimeWindow: 0
+          offsetUpdateCount: 0
+        autoCreateTopics: true
+        autoAddPartitions: true
+    bindings:
+        output: 
+          destination: test1
