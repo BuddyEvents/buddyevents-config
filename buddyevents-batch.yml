@@ -14,4 +14,4 @@ spring:
         autoAddPartitions: true
     bindings:
         output: 
-          destination: test1
+          destination: test2
