@@ -10,10 +10,10 @@ spring:
           defaultZkPort: 2181
           offsetUpdateTimeWindow: 0
           offsetUpdateCount: 0
-        autoCreateTopics: true
+        autoCreateTopics: false
         autoAddPartitions: true
     bindings:
         output: 
-          destination: test2
+          destination: test
           
  
