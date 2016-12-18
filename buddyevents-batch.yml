@@ -7,7 +7,7 @@ spring:
           brokers : localhost
           defaultBrokerPort: 9092
           zkNodes: localhost
-          defaultZkPort: 2182
+          defaultZkPort: 2181
           offsetUpdateTimeWindow: 0
           offsetUpdateCount: 0
         autoCreateTopics: true
@@ -15,3 +15,5 @@ spring:
     bindings:
         output: 
           destination: test2
+          
+ 
