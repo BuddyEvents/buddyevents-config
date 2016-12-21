@@ -13,7 +13,8 @@ spring:
         autoCreateTopics: false
         autoAddPartitions: true
         
-      bindings:
+      config:
+        bindings:
            destination: test
              
       output:
