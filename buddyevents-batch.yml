@@ -7,7 +7,7 @@ spring:
           brokers : localhost
           defaultBrokerPort: 9092
           zkNodes: localhost
-          defaultZkPort: 2181
+          defaultZkPort: 2182
           offsetUpdateTimeWindow: 0
           offsetUpdateCount: 0
           configuration.topic: test
