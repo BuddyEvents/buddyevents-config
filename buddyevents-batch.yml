@@ -17,5 +17,7 @@ spring:
         bindings:
           producer: 
              configuration.topic: test
+          output:
+              destination:test          
           
  
