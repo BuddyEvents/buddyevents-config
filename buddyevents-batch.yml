@@ -13,10 +13,10 @@ spring:
         autoCreateTopics: false
         autoAddPartitions: true
         
-        bindings:
-          producer: 
-             configuration.topic: test
-    output:
-        destination:test          
+      bindings:
+           destination: test
+             
+      output:
+        destination: test          
           
  
