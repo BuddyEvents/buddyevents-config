@@ -12,11 +12,10 @@ spring:
         autoCreateTopics: true
         autoAddPartitions: true
         
-      config:
-        bindings:
+      bindings:
+        output :
            destination: test3
              
-      output:
-        destination: test          
+         
           
  
