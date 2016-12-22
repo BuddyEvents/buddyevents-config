@@ -14,9 +14,9 @@ spring:
         
       bindings:
         output :
-           destination: test4
+           destination: test5
              
         input :
-            destination : test4
+            destination : test5
           
  
