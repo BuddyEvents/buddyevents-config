@@ -14,9 +14,9 @@ spring:
         
       bindings:
         output :
-           destination: test5
+           destination: buddyEvent
              
         input :
-            destination : test5
+            destination : buddyEvent
           
  
