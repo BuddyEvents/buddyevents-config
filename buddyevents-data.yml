@@ -1,6 +1,16 @@
 spring:
   profiles: development
-  data:
+   data:
     neo4j:
       username: neo4j
       password: password
+  cloud :
+    stream:
+      kafka: 
+        binder: 
+          brokers : localhost
+          defaultBrokerPort: 9092
+          zkNodes: localhost
+          defaultZkPort: 2181
+          offsetUpdateTimeWindow: 0
+          offsetUpdateCount: 0

@@ -11,12 +11,5 @@ spring:
           offsetUpdateCount: 0
         autoCreateTopics: true
         autoAddPartitions: true
-        
-      bindings:
-        output :
-           destination: buddyEvent
-             
-        input :
-            destination : buddyEvent
-          
+    
  
