@@ -17,4 +17,4 @@ spring:
       bindings:
           output:
              destination: eventdata
-
+             content-type: application/json  
