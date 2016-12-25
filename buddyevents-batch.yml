@@ -5,9 +5,9 @@ spring:
     stream:
       kafka: 
         binder: 
-          brokers : localhost
+          brokers : 192.168.1.72
           defaultBrokerPort: 9092
-          zkNodes: localhost
+          zkNodes: 192.168.1.72
           defaultZkPort: 2181
           offsetUpdateTimeWindow: 0
           offsetUpdateCount: 0
