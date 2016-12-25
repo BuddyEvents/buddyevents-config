@@ -12,6 +12,6 @@ spring:
           offsetUpdateCount: 0
           
       bindings:
-          createBuddyEvent:
+          input:
              destination: createBuddyEvent
             
