@@ -1,3 +1,5 @@
+server:
+  port : 9001
 spring:
   profiles: development
   cloud :
@@ -13,5 +15,5 @@ spring:
           
       bindings:
           input:
-             destination: createBuddyEvent
+             destination: eventdata
             

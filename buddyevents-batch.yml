@@ -1,3 +1,5 @@
+server:
+  port: 9002
 spring:
   cloud :
     stream:
@@ -12,4 +14,7 @@ spring:
         autoCreateTopics: true
         autoAddPartitions: true
     
- 
+      bindings:
+          output:
+             destination: eventdata
+
