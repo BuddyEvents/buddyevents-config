@@ -10,3 +10,8 @@ spring:
           defaultZkPort: 2181
           offsetUpdateTimeWindow: 0
           offsetUpdateCount: 0
+          
+      bindings:
+          createBuddyEvent:
+             destination: createBuddyEvent
+            
