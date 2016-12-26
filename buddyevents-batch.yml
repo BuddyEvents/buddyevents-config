@@ -1,7 +1,8 @@
 server:
   port: 9002
 spring:
-  cloud :
+  profiles: dev,cloud
+   cloud :
     stream:
       kafka: 
         binder: 
